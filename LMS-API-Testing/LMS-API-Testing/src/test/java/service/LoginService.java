@@ -13,5 +13,4 @@ public class LoginService {
 				.body(request)
 				.when().post(EndPoints.LOGIN);
 	}
-	
 }
